@@ -1,5 +1,4 @@
-/* resetting browser styles
-*/
+/* resetting browser styles */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -28,7 +27,43 @@ font-family: Quicksand;
 color: #333333;
 }
 
+/************************************************/
+/* NAV and Header Begin */
+.nav{
 
+min-height:60px;
+
+}
+
+.nav ul{
+padding-left: 45%;
+list-style: none;
+ text-align:center;
+}
+.nav li{
+float: left;
+padding-left: 15px;
+padding-right: 15px;
+line-height: 60px;
+}
+
+.nav li a{
+color: #111111;
+}
+
+.header  {
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.header img{
+  max-width: 100%;
+}
+/* NAV and Header End */
+/************************************************/
+
+/************************************************/
+/* Main Page Begin */
 .center {
     text-align: center;
     display: block;
@@ -57,14 +92,7 @@ margin-left: 16%;
 text-align: center;
 }
 
-.header  {
-  height: 100%;
-  margin: 0 auto;
-  display: block;
-}
-.header img{
-  max-width: 100%;
-}
+
 .button  {
   background-color: #4CAF50;
   border: none;
@@ -88,46 +116,6 @@ text-align: center;
   width: 100px;
 }
 
-
-.button a{
-text-decoration: none;
-color: #FFF;
-
-}
-.button:hover{
-background-color: #01DF74;
-}
-
-
-}
-.footer{
-margin-top: 20px;
-min-height: 150px;
-background: #666666;
-
-}
-.nav{
-
-min-height:60px;
-
-}
-
-.nav ul{
-padding-left: 45%;
-list-style: none;
- text-align:center;
-}
-.nav li{
-float: left;
-padding-left: 15px;
-padding-right: 15px;
-line-height: 60px;
-}
-
-.nav li a{
-color: #111111;
-}
-
 #donate{
   text-align: center;
 
@@ -136,3 +124,24 @@ color: #111111;
   text-decoration: none;
   line-height: 50px;
 }
+
+
+.button:hover{
+background-color: #01DF74;
+}
+
+
+}
+
+/* Main Page End */
+/************************************************/
+
+.footer{
+margin-top: 20px;
+min-height: 150px;
+background: #666666;
+
+}
+
+
+
