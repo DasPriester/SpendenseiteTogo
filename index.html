@@ -5,11 +5,19 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="icon" href="res/img/placeholder-favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="style.css">
+    <script>
+      hide_all();
+    </script>
   </head>
 
-  <body onload="hide_all()">
-    <div class="nav">
-      <button type="button" name="button">test</button>
+  <body>
+<div class="nav-button">
+
+
+<button type="button" name="button" onclick="myFunction()"></button>
+</div>
+    <div id="nav">
+
       <ul>
         <li><a href="#">Startseite</a></li>
         <li><a href="#">Über Uns</a></li>
@@ -20,42 +28,87 @@
     <div class="header">
       <img src="res/img/placeholder-top.png">
     </div>
+<script type="text/javascript">
+  function myFunction(){
+    var x = document.getElementById("nav");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
 
-    <div class="intro">
+  }
+</script>
+<div class="intro">
 
-      <h1>Das HBG spendet für Togo</h1>
-	  <h2> Togo </h2>
-      <p>Togo ist ein Land an der Westküste Afrikas ,
-	  in welchem über 30% der Bevölkerung an Armut leiden.
-	  Zehntausende haben keinen Zugang zu Medizin oder zu einer Behausung.
+
+
+   <h1>Das HBG spendet für Togo</h1>
+
+ <h2> Togo </h2>
+
+   <p>Togo ist ein Land an der Westküste Afrikas ,
+
+ in welchem über 30% der Bevölkerung an Armut leiden.
+
+ Zehntausende haben keinen Zugang zu Medizin oder zu einer Behausung.
+
 Unsere Schule spendet aus diesen Gründen in Zusammenarbeit mit der Togo
+
 Hilfe Rheinbach für die Gustav Nachtigal-Schule. </p>
 
+
+
 <hr />
+
 <div class="main">
+
 <h2> Mehr zur Spende </h2>
+
 <p>Die Spenden werden zur Togohilfe Rheinbach weitergeleitet welche die jeweiligen
+
 Projekte unterstüzen..</p>
+
 </div>
+
 <div class="sidebar">
+
 <img src="res/img/Logo.gif">
+
 </div>
+
+
 
 <div class="clear">
 
+
+
 <hr />
 
 
-    <h2>Das Projekt</h2>
-    <p>
-      Die schule, für die wir spenden Steht in einem Dorf namens Kpalimé.
-      Der Rohbau der Gustav Nachtigal-Schule konnte, inklusive von drei Klassenzimern breits
-      beendet werden. Insgesamt belaufen sich die weiteren Kosten inklusive der Tische, Bänke
-      und Tafeln auf 17500 Euro.
-    </p>
 
-    </div>
+
+
+ <h2>Das Projekt</h2>
+
+ <p>
+
+   Die schule, für die wir spenden Steht in einem Dorf namens Kpalimé.
+
+   Der Rohbau der Gustav Nachtigal-Schule konnte, inklusive von drei Klassenzimern breits
+
+   beendet werden. Insgesamt belaufen sich die weiteren Kosten inklusive der Tische, Bänke
+
+   und Tafeln auf 17500 Euro.
+
+ </p>
+
+
+
+ </div>
+
 <hr />
+
     <div class="button">
       <a href="#donate">Donate</a>
     </div>
@@ -93,17 +146,28 @@ Projekte unterstüzen..</p>
       </div>
   </div>
 
+    </div>
+
+    </div>
+
     <div id="donate" >
       <h2>Per Banküberweisung spenden</h2>
       <p>Raiffeisenbank Voreifel eG</p>
       <p>IBAN: DE41 3706 9627 0022 2220 23</p>
-      <p>  BIC: GENODED1RBC </p>
+      <p>  BIC: GENODED1RBC </p> </div>
 
-      <h2>Per PayPal spenden</h2>
 
-      <img src="res/img/paypal.png" alt="paypal" style="margin-top:20px;">
+	<div id="donate2"><h2>Per PayPal spenden</h2>
 
-    </div>
+      <img src="res/img/paypal.png" alt="paypal" style="margin-top:20px;"></div>
+
+
+
+
+
+
+
+
 
     <div class="footer">
 
