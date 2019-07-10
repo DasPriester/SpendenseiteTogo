@@ -169,7 +169,13 @@ text-align: center;
   width: 40%;
   float: left;
   margin-bottom: 30px;
-  min-height: 380px;
+  min-height:380px;
+  
+}
+#herz {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
   
 }
 
@@ -179,7 +185,7 @@ text-align: center;
 width: 40%;
 float: right;	
 margin-bottom: 30px;
-min-height: 350px;
+min-height: 380px;
 padding-top: 30px;
 }	
 
