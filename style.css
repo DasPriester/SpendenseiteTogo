@@ -20,7 +20,7 @@
 
       <ul>
         <li><a href="#">Startseite</a></li>
-        <li><a href="#">Über Uns</a></li>
+        <li><a href="#">ï¿½ber Uns</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
@@ -31,11 +31,11 @@
 <script type="text/javascript">
   function myFunction(){
     var x = document.getElementById("nav");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
+    ï¿½ if (x.style.display === "none") {
+    ï¿½ï¿½ï¿½ï¿½x.style.display = "block";
+    ï¿½ï¿½} else {
+    ï¿½ï¿½ï¿½ï¿½x.style.display = "none";
+    ï¿½ }
 
   }
 </script>
@@ -43,46 +43,46 @@
 
 <<<<<<< HEAD
 =======
-      <h1>Das HBG spendet für Togo</h1>
+      <h1>Das HBG spendet fï¿½r Togo</h1>
 	  <h2> Togo </h2>
-      <p>Togo ist ein Land an der Westküste Afrikas ,
-	  in welchem über 30% der Bevölkerung an Armut leiden.
+      <p>Togo ist ein Land an der Westkï¿½ste Afrikas ,
+	  in welchem ï¿½ber 30% der Bevï¿½lkerung an Armut leiden.
 	  Zehntausende haben keinen Zugang zu Medizin oder zu einer Behausung.
-Unsere Schule spendet aus diesen Gründen in Zusammenarbeit mit der Togo
-Hilfe Rheinbach für die Gustav Nachtigal-Schule. </p>
+Unsere Schule spendet aus diesen Grï¿½nden in Zusammenarbeit mit der Togo
+Hilfe Rheinbach fï¿½r die Gustav Nachtigal-Schule. </p>
 
 <hr />
 <div class="main">
 <h2> Mehr zur Spende </h2>
 <p>Die Spenden werden zur Togohilfe Rheinbach weitergeleitet welche die jeweiligen
-Projekte unterstüzen..</p>
+Projekte unterstï¿½zen..</p>
 </div>
 <div class="sidebar">
 <img src="res/img/Logo.gif">
 </div>
 >>>>>>> bb1b01822b6a6ec0587dada8de1d687547f50052
 
-    <h1>Das HBG spendet für Togo</h1>
+    <h1>Das HBG spendet fï¿½r Togo</h1>
 	  <h2>Togo</h2>
     <p>
-      Togo ist ein Land an der Westküste Afrikas ,
-  	  in welchem übern welchem über 30% der Bevölkerung an Armut leiden.
+      Togo ist ein Land an der Westkï¿½ste Afrikas ,
+  	  in welchem ï¿½bern welchem ï¿½ber 30% der Bevï¿½lkerung an Armut leiden.
   	  Zehntausende haben keinen Zugang zu Medizin oder zu einer Behausung.
-      Unsere Schule spendet aus diesen Gründen in Zusammenarbeit mit der Togo
-      Hilfe Rheinbach für die Gustav Nachtigal-Schule.
+      Unsere Schule spendet aus diesen Grï¿½nden in Zusammenarbeit mit der Togo
+      Hilfe Rheinbach fï¿½r die Gustav Nachtigal-Schule.
 
 
     <h2>Mehr zur Spende:</h2>
     <p>
       Die Spenden werden zur Togohilfe Rheinbach weitergeleitet welche die jeweiligen
-      Projekte unterstüzen..
+      Projekte unterstï¿½zen..
     </p>
 
     <h2>Das Projekt</h2>
     <p>
-      Die schule, für die wir spenden Steht in einem Dorf namens Kpalimé.
+      Die schule, fï¿½r die wir spenden Steht in einem Dorf namens Kpalimï¿½.
       Der Rohbau der Gustav Nachtigal-Schule konnte, inklusive von drei Klassenzimern breits
-      beendet werden. Insgesamt belaufen sich die weiteren Kosten inklusive der Tische, Bänke
+      beendet werden. Insgesamt belaufen sich die weiteren Kosten inklusive der Tische, Bï¿½nke
       und Tafeln auf 17500 Euro.
     </p>
 
@@ -129,7 +129,7 @@ Projekte unterstüzen..</p>
     </div>
 
     <div id="donate" >
-      <h2>Per Banküberweisung spenden</h2>
+      <h2>Per Bankï¿½berweisung spenden</h2>
       <p>Raiffeisenbank Voreifel eG</p>
       <p>IBAN: DE41 3706 9627 0022 2220 23</p>
       <p>  BIC: GENODED1RBC </p>
@@ -318,8 +318,8 @@ text-align: center;
 
 #donate2{
 width: 45%;
-float: right;	
-}	
+float: right;
+}
 .button a {
   color: #FFFFFF;
   text-decoration: none;
