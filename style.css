@@ -52,7 +52,6 @@ color: #111111;
 }
 
 .header  {
-  height: 100%;
   margin: 0 auto;
   display: block;
 }
@@ -71,18 +70,26 @@ color: #111111;
 }
 
 .intro{
-text-align: center;
-margin: 80px 50px 50px 50px;
+
+margin: 50px 10% 50px 10%;
 }
 
 
 .intro  h1 {
+	text-align: center;
+  font-size: 350%;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+.intro  h2 {
   font-size: 300%;
-  line-height: 60px;
+  line-height: 80px;
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .intro p{
-font-size: 20px;
+font-size: 30px;
 }
 
 .test{
