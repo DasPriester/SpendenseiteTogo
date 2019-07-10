@@ -167,10 +167,30 @@ background-color: #01DF74;
 }
 
 /* Map Begin*/
-.map-imgs {
-
-
+.map-imgs #savanes{
+  top: -1300;
 }
+.map-imgs #kara{
+  top: -1100;
+}
+.map-imgs #centrale{
+  top: -1000;
+}
+.map-imgs #plateaux{
+  top: -1000;
+}
+.map-imgs #maritime{
+  top: -1000;
+}
+.map-imgs{
+
+  right: 150px;
+  z-index: 1;
+  width: 60%;
+  float: right;
+  position: relative;
+}
+
 
 
 /* Main Page End */
