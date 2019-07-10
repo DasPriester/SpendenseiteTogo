@@ -190,15 +190,17 @@ text-align: center;
   text-align: center;
   width: 45%;
   float: left;
-
+border:1px solid #999999;
   margin-bottom: 30px;
   min-height:380px;
+  padding-top: 30px;
   
 }
 #herz {
   margin: 20px;
   width: 200px;
   height: 200px;
+ 
   
 }
 
@@ -213,12 +215,10 @@ padding-top: 30px;
 }	
 
 
-}
 
-#donate2{
-width: 45%;
-float: right;
-}
+
+
+
 .button a {
   color: #FFFFFF;
   text-decoration: none;
