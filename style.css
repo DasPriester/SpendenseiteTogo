@@ -81,6 +81,10 @@ margin: 50px 10% 50px 10%;
   line-height: 80px;
   margin-bottom: 20px;
 }
+
+.intro hr
+
+
 .intro  h2 {
   font-size: 300%;
   line-height: 80px;
@@ -91,7 +95,19 @@ margin: 50px 10% 50px 10%;
 .intro p{
 font-size: 30px;
 }
+.main {
+	width: 80%;
+	float: left;
+}
 
+.sidebar {
+	width: 18%;
+	margin-left: 2%;
+	float: right;
+}
+.clear {
+clear:both;
+}
 .test{
 
 margin-right: 16%;
