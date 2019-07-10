@@ -332,42 +332,32 @@ background-color: #01DF74;
 }
 
 /* Map Begin*/
-.map-imgs #savanes{
-  top: -1300;
+#savanes{
+  top: -100px;
 }
-.map-imgs #kara{
-  top: -1100;
+#kara{
+  top: -300px;
 }
-.map-imgs #centrale{
-  top: -1000;
+#centrale{
+  top: -500px;
 }
-.map-imgs #plateaux{
-  top: -1000;
+#plateaux{
+  top: -700px;
 }
-.map-imgs #maritime{
-  top: -1000;
+#maritime{
+  top: -500px;
 }
 
-.map-img{
-	right: 50px;
-	z-index: 1;
-	width: 60%;
-	float: right;
-	position: relative;
-	background-color: #FFF3D9;
-	width: 720px;
-	height: 545px;
-}
 
 .map-imgs{
   right: 50px;
   z-index: 1;
-  width: 60%;
   float: right;
   position: relative;
 	background-color: #FFF3D9;
-	width: 720px;
+	width: 500px;
 	height: 545px;
+	border: 3px dotted #000000;
 }
 /*Map End*/
 
