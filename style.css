@@ -188,15 +188,25 @@ text-align: center;
   }
 
 #donate{
+	border:1px solid #999999;
   text-align: center;
-  width: 45%;
+  width: 40%;
   float: left;
+  margin-bottom: 30px;
+  min-height: 380px;
+  
 }
 
 #donate2{
-width: 45%;
-float: right;
-}
+border:1px solid #999999;
+text-align: center;
+width: 40%;
+float: right;	
+margin-bottom: 30px;
+min-height: 350px;
+padding-top: 30px;
+}	
+
 .button a {
   color: #FFFFFF;
   text-decoration: none;
@@ -210,42 +220,44 @@ background-color: #01DF74;
 }
 
 /* Map Begin*/
-.map-imgs #savanes{
-  top: -1300;
+#savanes{
+  top: -1200px;
 }
-.map-imgs #kara{
-  top: -1100;
+#kara{
+  top: -1000px;
 }
-.map-imgs #centrale{
-  top: -1000;
+#centrale{
+  top: -800px;
 }
-.map-imgs #plateaux{
-  top: -1000;
+#plateaux{
+  top: -600px;
 }
-.map-imgs #maritime{
-  top: -1000;
+#maritime{
+  top: -400px;
 }
 
-.map-img{
-	right: 50px;
-	z-index: 1;
-	width: 60%;
-	float: right;
-	position: relative;
-	background-color: #FFF3D9;
-	width: 720px;
-	height: 545px;
-}
 
 .map-imgs{
   right: 50px;
   z-index: 1;
-  width: 60%;
   float: right;
   position: relative;
 	background-color: #FFF3D9;
-	width: 720px;
-	height: 545px;
+	width: 500px;
+	height: 300px;
+	border: 3px dotted #000000;
+	padding: 10px;
+	font-size: 110%
+}
+
+#bigtext{
+
+font-size: 120%;
+font-weight: bold;
+text-align: center;
+display: block;
+margin: auto;
+
 }
 /*Map End*/
 
@@ -258,5 +270,6 @@ margin-top: 20px;
 min-height: 150px;
 background: #666666;
 width: 100%;
+clear:both;
 
 }
