@@ -311,14 +311,23 @@ text-align: center;
   }
 
 #donate{
+	border:1px solid #999999;
   text-align: center;
-  width: 45%;
+  width: 40%;
   float: left;
+  margin-bottom: 30px;
+  min-height: 380px;
+  
 }
 
 #donate2{
-width: 45%;
+border:1px solid #999999;
+text-align: center;
+width: 40%;
 float: right;	
+margin-bottom: 30px;
+min-height: 350px;
+padding-top: 30px;
 }	
 .button a {
   color: #FFFFFF;
@@ -380,5 +389,6 @@ margin-top: 20px;
 min-height: 150px;
 background: #666666;
 width: 100%;
+clear:both;
 
 }
