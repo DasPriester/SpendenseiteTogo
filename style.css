@@ -118,7 +118,7 @@ text-align: center;
 
 #donate{
   text-align: center;
-
+}
 .button a {
   color: #FFFFFF;
   text-decoration: none;
@@ -130,11 +130,8 @@ text-align: center;
 background-color: #01DF74;
 }
 
-.map-imgs{
-  float: right;
-  right: 0;
-  position: fixed;
-}
+/* Map Begin*/
+.map-imgs
 
 
 /* Main Page End */
