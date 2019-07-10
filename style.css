@@ -191,13 +191,13 @@ text-align: center;
   text-align: center;
   width: 45%;
   float: left;
-
+border:1px solid #999999;
   margin-bottom: 30px;
   min-height:380px;
-
 }
+
 #herz {
-  margin: 20px;
+
   width: 200px;
   height: 200px;
 
@@ -211,22 +211,15 @@ float: right;
 margin-bottom: 30px;
 min-height: 380px;
 padding-top: 30px;
-}
-
 
 }
 
-#donate2{
-width: 45%;
-float: right;
-}
 .button a {
   color: #FFFFFF;
   text-decoration: none;
   line-height: 50px;
 
 }
-
 
 .button:hover{
 background-color: #01DF74;
@@ -267,8 +260,21 @@ background-color: #01DF74;
   float: right;
   position: relative;
 	background-color: #FFF3D9;
-	width: 720px;
-	height: 545px;
+	width: 500px;
+	height: 300px;
+	border: 3px dotted #000000;
+	padding: 10px;
+	font-size: 110%;
+	display: none;
+}
+
+#bigtext{
+
+font-size: 120%;
+font-weight: bold;
+text-align: center;
+display: block;
+margin: auto;
 }
 /*Map End*/
 
