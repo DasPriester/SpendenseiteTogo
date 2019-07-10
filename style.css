@@ -96,7 +96,7 @@ margin: 50px 10% 50px 10%;
   margin-top:50px;
   margin-bottom:50px;
   color:#ffffff;
- 
+
 }
 
 
@@ -182,15 +182,29 @@ background-color: #01DF74;
 .map-imgs #maritime{
   top: -1000;
 }
-.map-imgs{
 
-  right: 150px;
+.map-img{
+	right: 50px;
+	z-index: 1;
+	width: 60%;
+	float: right;
+	position: relative;
+	background-color: #FFF3D9;
+	width: 720px;
+	height: 545px;
+}
+
+.map-imgs{
+  right: 50px;
   z-index: 1;
   width: 60%;
   float: right;
   position: relative;
+	background-color: #FFF3D9;
+	width: 720px;
+	height: 545px;
 }
-
+/*Map End*/
 
 
 /* Main Page End */
@@ -200,5 +214,6 @@ background-color: #01DF74;
 margin-top: 20px;
 min-height: 150px;
 background: #666666;
+width: 100%;
 
 }
