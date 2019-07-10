@@ -38,11 +38,11 @@
       <a href="#donate">Donate</a>
     </div>
 
-    <button type="button" name="button" onclick="hide_show(savanes)">thing</button>
+    <button type="button" name="button" onclick="hide_show('savanes')">Hide/Show test</button>
 
     <script>
-    function hide_show(String elementId) {
-      var x = document.getElementById(elementId);
+    function hide_show() {
+      var x = document.getElementById(arguments[0]);
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
@@ -51,7 +51,7 @@
     }
     </script>
 
-    <div class="map">
+    <div class="map" id="map">
       <img src="res/img/togo-map.jpg" usemap="#togo-usemap" width="61%">
       <map name="togo-usemap">
         <area target="" alt="Savanes" title="Savanes" href="" coords="267,65,276,72,293,67,304,73,303,93,296,98,297,111,293,120,296,125,283,135,281,152,282,168,296,172,309,180,321,191,331,205,337,217,352,217,361,227,370,237,380,237,371,278,379,285,382,297,384,305,417,329,441,328,438,308,454,264,463,264,468,268,483,265,503,255,460,222,460,194,466,181,466,149,480,131,483,117,488,90,436,93,403,103,402,90" shape="poly">
@@ -61,8 +61,17 @@
         <area target="" alt="Maritime" title="Maritime" href="" coords="448,1029,454,1050,463,1057,475,1066,483,1072,506,1079,513,1097,527,1113,547,1111,548,1122,636,1100,641,1094,675,1085,661,1044,651,1041,651,1031,633,1016,625,1003,628,993,638,986,631,969,634,954,607,968,580,971,557,991,528,973,479,968,478,1009,465,1025" shape="poly">
       </map>
     </div>
+    <div class="map-imgs">
+      <img src="res/img/placeholder-1-test.png" id="savanes">
+      <img src="res/img/placeholder-1-test.png" id="kara">
+      <img src="res/img/placeholder-1-test.png" id="centrale">
+      <img src="res/img/placeholder-1-test.png" id="plateaux">
+      <img src="res/img/placeholder-1-test.png" id="maritime">
+    </div>
 
-    <img src="res/img/placeholder-1-test.png" id="savanes">
+    </div>
+
+    </div>
 
     <div id="donate" >
       <h2>Per Banküberweisung spenden</h2>
