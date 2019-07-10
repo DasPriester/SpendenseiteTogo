@@ -5,11 +5,19 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="icon" href="res/img/placeholder-favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="style.css">
+    <script>
+      hide_all();
+    </script>
   </head>
 
-  <body onload="hide_all()">
-    <div class="nav">
-      <button type="button" name="button">test</button>
+  <body>
+<div class="nav-button">
+
+
+<button type="button" name="button" onclick="myFunction()"></button>
+</div>
+    <div id="nav">
+
       <ul>
         <li><a href="#">Startseite</a></li>
         <li><a href="#">Über Uns</a></li>
@@ -20,31 +28,35 @@
     <div class="header">
       <img src="res/img/placeholder-top.png">
     </div>
+<script type="text/javascript">
+  function myFunction(){
+    var x = document.getElementById("nav");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
 
+  }
+</script>
     <div class="intro">
 
-      <h1>Das HBG spendet für Togo</h1>
-	  <h2> Togo </h2>
-      <p>Togo ist ein Land an der Westküste Afrikas , 
-	  in welchem über 30% der Bevölkerung an Armut leiden.
-	  Zehntausende haben keinen Zugang zu Medizin oder zu einer Behausung.
-Unsere Schule spendet aus diesen Gründen in Zusammenarbeit mit der Togo 
-Hilfe Rheinbach für die Gustav Nachtigal-Schule. </p>
 
-<hr />
-<div class="main">
-<h2> Mehr zur Spende </h2>
-<p>Die Spenden werden zur Togohilfe Rheinbach weitergeleitet welche die jeweiligen 
-Projekte unterstüzen..</p>
-</div>
-<div class="sidebar">
-<img src="res/img/Logo.gif">
-</div>
+    <h1>Das HBG spendet für Togo</h1>
+	  <h2>Togo</h2>
+    <p>
+      Togo ist ein Land an der Westküste Afrikas ,
+  	  in welchem übern welchem über 30% der Bevölkerung an Armut leiden.
+  	  Zehntausende haben keinen Zugang zu Medizin oder zu einer Behausung.
+      Unsere Schule spendet aus diesen Gründen in Zusammenarbeit mit der Togo
+      Hilfe Rheinbach für die Gustav Nachtigal-Schule.
 
-<div class="clear">
 
-<hr />
-
+    <h2>Mehr zur Spende:</h2>
+    <p>
+      Die Spenden werden zur Togohilfe Rheinbach weitergeleitet welche die jeweiligen
+      Projekte unterstüzen..
+    </p>
 
     <h2>Das Projekt</h2>
     <p>
@@ -55,7 +67,7 @@ Projekte unterstüzen..</p>
     </p>
 
     </div>
-<hr />
+
     <div class="button">
       <a href="#donate">Donate</a>
     </div>
@@ -85,18 +97,22 @@ Projekte unterstüzen..</p>
       <img src="res/img/togo-map.jpg" usemap="#togo-usemap" width="61%">
       <map name="togo-usemap">
         <area target="" onmouseover="hide_show('savanes')" onmouseout="hide_all()" alt="Savanes" title="Savanes" href="" coords="267,65,276,72,293,67,304,73,303,93,296,98,297,111,293,120,296,125,283,135,281,152,282,168,296,172,309,180,321,191,331,205,337,217,352,217,361,227,370,237,380,237,371,278,379,285,382,297,384,305,417,329,441,328,438,308,454,264,463,264,468,268,483,265,503,255,460,222,460,194,466,181,466,149,480,131,483,117,488,90,436,93,403,103,402,90" shape="poly">
-        <area target="" onmouseover="hide_show('kara')" onmouseout="hide_all()" alt="Kara" title="Kara" href="" coords="381,297,369,297,369,307,374,317,364,330,371,338,362,360,371,364,367,375,354,372,348,377,355,391,367,385,375,389,367,395,349,394,342,403,357,407,343,415,352,425,366,420,369,410,387,408,402,416,400,423,412,427,409,450,401,458,407,475,395,482,397,495,389,508,403,529,403,542,412,540,419,531,432,519,448,502,479,511,494,508,505,499,501,481,509,466,551,467,578,460,594,450,586,411,581,413,574,397,582,386,579,303,502,255,484,265,467,267,453,263,436,310,441,328,412,331,382,309" shape="poly">
-        <area target="" onmouseover="hide_show('centrale')" onmouseout="hide_all()" alt="Centrale" title="Centrale" href="" coords="400,545,399,560,378,559,394,598,417,616,432,625,436,638,444,643,442,654,449,657,449,663,418,683,423,688,418,700,425,746,474,729,505,729,523,733,554,727,561,687,552,645,634,647,635,632,645,621,635,609,634,498,625,476,593,450,581,461,554,466,509,464,501,480,504,497,493,508,476,513,448,502,436,512,428,524,420,532,410,541" shape="poly">
-        <area target="" onmouseover="hide_show('plateaux')" onmouseout="hide_all()" alt="Plateaux" title="Plateaux" href="" coords="425,747,427,790,418,787,415,806,403,813,403,842,411,853,427,852,433,873,427,900,423,912,421,935,403,942,411,950,411,964,406,974,415,978,417,986,431,992,430,1015,441,1023,451,1025,448,1032,468,1027,478,1014,481,971,530,976,555,995,577,975,606,971,629,957,621,935,639,934,640,651,552,645,560,688,552,726,519,737,500,729,470,730" shape="poly">
-        <area target="" onmouseover="hide_show('maritime')" onmouseout="hide_all()" alt="Maritime" title="Maritime" href="" coords="448,1029,454,1050,463,1057,475,1066,483,1072,506,1079,513,1097,527,1113,547,1111,548,1122,636,1100,641,1094,675,1085,661,1044,651,1041,651,1031,633,1016,625,1003,628,993,638,986,631,969,634,954,607,968,580,971,557,991,528,973,479,968,478,1009,465,1025" shape="poly">
+        <area target="" onmouseover="hide_show('savanes')" onmouseout="hide_all()" alt="Kara" title="Kara" href="" coords="381,297,369,297,369,307,374,317,364,330,371,338,362,360,371,364,367,375,354,372,348,377,355,391,367,385,375,389,367,395,349,394,342,403,357,407,343,415,352,425,366,420,369,410,387,408,402,416,400,423,412,427,409,450,401,458,407,475,395,482,397,495,389,508,403,529,403,542,412,540,419,531,432,519,448,502,479,511,494,508,505,499,501,481,509,466,551,467,578,460,594,450,586,411,581,413,574,397,582,386,579,303,502,255,484,265,467,267,453,263,436,310,441,328,412,331,382,309" shape="poly">
+        <area target="" onmouseover="hide_show('savanes')" onmouseout="hide_all()" alt="Centrale" title="Centrale" href="" coords="400,545,399,560,378,559,394,598,417,616,432,625,436,638,444,643,442,654,449,657,449,663,418,683,423,688,418,700,425,746,474,729,505,729,523,733,554,727,561,687,552,645,634,647,635,632,645,621,635,609,634,498,625,476,593,450,581,461,554,466,509,464,501,480,504,497,493,508,476,513,448,502,436,512,428,524,420,532,410,541" shape="poly">
+        <area target="" onmouseover="hide_show('savanes')" onmouseout="hide_all()" alt="Plateaux" title="Plateaux" href="" coords="425,747,427,790,418,787,415,806,403,813,403,842,411,853,427,852,433,873,427,900,423,912,421,935,403,942,411,950,411,964,406,974,415,978,417,986,431,992,430,1015,441,1023,451,1025,448,1032,468,1027,478,1014,481,971,530,976,555,995,577,975,606,971,629,957,621,935,639,934,640,651,552,645,560,688,552,726,519,737,500,729,470,730" shape="poly">
+        <area target="" onmouseover="hide_show('savanes')" onmouseout="hide_all()" alt="Maritime" title="Maritime" href="" coords="448,1029,454,1050,463,1057,475,1066,483,1072,506,1079,513,1097,527,1113,547,1111,548,1122,636,1100,641,1094,675,1085,661,1044,651,1041,651,1031,633,1016,625,1003,628,993,638,986,631,969,634,954,607,968,580,971,557,991,528,973,479,968,478,1009,465,1025" shape="poly">
       </map>
     </div>
     <div class="map-imgs" id="all-img">
-      <img title="Savanes"  src="res/img/placeholder-1-test.png" id="savanes"  class="map-imgs">
-      <img title="Kara"     src="res/img/placeholder-1-test.png" id="kara"     class="map-imgs">
+      <img title="Savanes" src="res/img/placeholder-1-test.png" id="savanes" class="map-imgs">
+      <img title="Kara" src="res/img/placeholder-1-test.png" id="kara" class="map-imgs">
       <img title="Centrale" src="res/img/placeholder-1-test.png" id="centrale" class="map-imgs">
       <img title="Plateaux" src="res/img/placeholder-1-test.png" id="plateaux" class="map-imgs">
       <img title="Maritime" src="res/img/placeholder-1-test.png" id="maritime" class="map-imgs">
+    </div>
+
+    </div>
+
     </div>
 
     <div id="donate" >
