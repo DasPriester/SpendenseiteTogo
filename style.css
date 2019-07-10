@@ -71,12 +71,29 @@ color: #111111;
 }
 
 .intro{
-text-align: center;
-margin: 80px 50px 50px 50px;
+
+margin: 50px 10% 50px 10%;
 }
 
 
 .intro  h1 {
+	text-align: center;
+  font-size: 350%;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.intro hr {
+  text-align: center;
+  width: 40%;
+  margin-top:50px;
+  margin-bottom:50px;
+  color:#ffffff;
+ 
+}
+
+
+.intro  h2 {
   font-size: 300%;
   line-height: 60px;
 }
@@ -84,7 +101,19 @@ margin: 80px 50px 50px 50px;
 .intro p{
 font-size: 20px;
 }
+.main {
+	width: 80%;
+	float: left;
+}
 
+.sidebar {
+	width: 18%;
+	margin-left: 2%;
+	float: right;
+}
+.clear {
+clear:both;
+}
 .test{
 
 margin-right: 16%;
