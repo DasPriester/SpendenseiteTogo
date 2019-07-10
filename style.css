@@ -225,20 +225,20 @@ background-color: #01DF74;
 }
 
 /* Map Begin*/
-.map-imgs #savanes{
-  top: -1300;
+#savanes{
+  top: -1200px;
 }
-.map-imgs #kara{
-  top: -1100;
+#kara{
+  top: -1000px;
 }
-.map-imgs #centrale{
-  top: -1000;
+#centrale{
+  top: -800px;
 }
-.map-imgs #plateaux{
-  top: -1000;
+#plateaux{
+  top: -600px;
 }
-.map-imgs #maritime{
-  top: -1000;
+#maritime{
+  top: -400px;
 }
 
 .map-img{
@@ -267,7 +267,7 @@ background-color: #01DF74;
 	display: none;
 }
 
-#bigtext{
+.bigtext{
 
 font-size: 120%;
 font-weight: bold;
