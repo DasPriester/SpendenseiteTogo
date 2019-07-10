@@ -114,7 +114,7 @@ text-align: center;
   top: 100px;
   height: 50px;
   width: 100px;
-}
+  }
 
 #donate{
   text-align: center;
@@ -130,6 +130,9 @@ text-align: center;
 background-color: #01DF74;
 }
 
+.map-imgs img{
+  display: none;
+}
 
 
 /* Main Page End */
