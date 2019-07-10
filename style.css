@@ -50,6 +50,13 @@ line-height: 60px;
 .nav li a{
 color: #111111;
 }
+.nav button{
+height: 60px;
+width: 60px;
+float: left;
+background-image: url("res/img/menu.jpg");
+
+}
 
 .header  {
   height: 100%;
@@ -118,6 +125,7 @@ text-align: center;
 
 #donate{
   text-align: center;
+}
 
 .button a {
   color: #FFFFFF;
