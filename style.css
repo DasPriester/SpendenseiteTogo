@@ -311,6 +311,9 @@ padding-top: 25px;
   transform: rotateY(180deg);
   padding-top: 68px;
 }
+.flip-card-front img{
+    margin-top: 60px;
+}
 body{
   margin-top: -50px !important;
 }
