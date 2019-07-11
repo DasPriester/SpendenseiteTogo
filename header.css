@@ -76,11 +76,11 @@ font-weight: 700;
 height: 60px;
 width: 60px;
 float: left;
-background-image: url("res/img/menubar.svg");
+background-image: url("res/img/menu-icon.png");
 text-align: center;
 border: none;
-
-
+background-size: 100px 60px;
+background-position: 49%;
 }
 
 .header  {
