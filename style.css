@@ -120,7 +120,35 @@ min-height: 400px;
 background-color: #01DF74;
 }
 
+#progress_bar {
+  background: #efefef;
+  position: relative;
+  bottom: 5px;
+  left: 10%;
+  height: 2%;
+  width: 80%;
+}
 
+#progress {
+  background:  #4CAF50;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+}
+
+#progress_bar a {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#progress:hover {
+  background:  #01DF74;
+}
 
 /* Main Page End */
 /************************************************/
