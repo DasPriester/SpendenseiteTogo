@@ -26,31 +26,20 @@
     }
     </script>
     <script type="text/javascript">
-    halve()
-  {
-      saved = "";
-      all = "";
-      for(int i = 0; i< arguments[0].length() ; i++)
-      {
-          if(arguments[0].charAt(i)==',')
-          {
-              all += ""+(0+Integer.parseInt(saved)*arguments[1])+",";
-              saved = "";
-          }
-          else
-          {
-              saved += arguments[0].charAt(i);
-          }
-      }
-      all += ""+(0+Integer.parseInt(saved)*arguments[1]);
-      return all;
-  }
+
+    if (screen.height == 1050 && screen.width == 1680) {
+      document.getElementById("entiremap").style.display = "block";
+    }
+    else {
+      document.getElementById("entiremap").style.display = "none";
+    }
+
 
     </script>
 
-    <div class="entiremap">
+    <div class="entiremap" id="entiremap">
       <div class="map" id="map">
-        <img src="res/img/togo-map.jpg" usemap="#togo-usemap" width="61%" id="actualmap">
+        <img src="res/img/togo-map.jpg" usemap="#togo-usemap" width="66%" id="actualmap">
         <map name="togo-usemap">
           <area target="" onmouseover="hide_show('savanes')" onmouseout="hide_all()" alt="Savanes" title="Savanes" href="" coords="267,65,276,72,293,67,304,73,303,93,296,98,297,111,293,120,296,125,283,135,281,152,282,168,296,172,309,180,321,191,331,205,337,217,352,217,361,227,370,237,380,237,371,278,379,285,382,297,384,305,417,329,441,328,438,308,454,264,463,264,468,268,483,265,503,255,460,222,460,194,466,181,466,149,480,131,483,117,488,90,436,93,403,103,402,90" shape="poly">
           <area target="" onmouseover="hide_show('kara')" onmouseout="hide_all()" alt="Kara" title="Kara" href="" coords="381,297,369,297,369,307,374,317,364,330,371,338,362,360,371,364,367,375,354,372,348,377,355,391,367,385,375,389,367,395,349,394,342,403,357,407,343,415,352,425,366,420,369,410,387,408,402,416,400,423,412,427,409,450,401,458,407,475,395,482,397,495,389,508,403,529,403,542,412,540,419,531,432,519,448,502,479,511,494,508,505,499,501,481,509,466,551,467,578,460,594,450,586,411,581,413,574,397,582,386,579,303,502,255,484,265,467,267,453,263,436,310,441,328,412,331,382,309" shape="poly">

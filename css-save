@@ -47,10 +47,15 @@ padding-left: 15px;
 padding-right: 15px;
 line-height: 60px;
 background-color: #60A1F0;
-color: white;
-font-weight: 700;
-  border: none;
+}
 
+#nav li a{
+color: #FFFFFF;
+text-decoration: none;
+}
+
+#nav li:hover a {
+  text-decoration: none;
 
 }
 #nav li:hover{
@@ -63,14 +68,11 @@ background-color: #EE8F1B;
 height: 60px;
 width: 60px;
 float: left;
-
-background-image: url("res/img/menu-icon.png");
-
-
+background-image: url("res/img/menu.png");
 text-align: center;
 border: none;
-background-size: 100px 60px;
-background-position: 49%;
+
+
 }
 
 .header  {
