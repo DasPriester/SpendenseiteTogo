@@ -1,197 +1,98 @@
+/* resetting browser styles */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+
+font-family: Quicksand;
+color: #333333;
+}
 
 /************************************************/
-/* Main Page Begin */
-.center {
-    text-align: center;
-    display: block;
-    margin: auto;
-}
+/* NAV and Header Begin */
+.nav{
 
-.intro{
-
-margin: 50px 10% 50px 10%;
-}
-
-
-.intro  h1 {
-	text-align: center;
-  font-size: 350%;
-  line-height: 80px;
-  margin-bottom: 20px;
-}
-
-.intro hr {
-  text-align: center;
-  width: 40%;
-  margin-top:50px;
-  margin-bottom:50px;
-  color:#ffffff;
+min-height:60px;
 
 }
 
+#nav ul{
 
-.intro  h2 {
-  font-size: 280%;
-  line-height: 60px;
+list-style: none;
+
+ float: left;
+}
+#nav li{
+float: left;
+padding-left: 15px;
+padding-right: 15px;
+line-height: 60px;
+background-color: #60A1F0;
 }
 
-.intro p{
-font-size: 28px;
-}
-.main {
-	width: 80%;
-	float: left;
-}
-
-.sidebar {
-	width: 18%;
-	margin-left: 2%;
-	float: right;
-}
-.clear {
-clear:both;
-}
-.test{
-
-margin-right: 16%;
-margin-left: 16%;
-text-align: center;
-}
-
-
-.button  {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: Quicksand;
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  margin: 4px 2px;
-  cursor: pointer;
-  position: fixed;
-  float: right;
-  right: -8px;
-  top: 100px;
-  height: 50px;
-  width: 6%;
-  z-index: 99;
-  }
-
-#donate{
-  text-align: center;
-  min-width: 40%;
-  float: left;
-border:1px solid #999999;
-  margin-bottom: 30px;
-  min-height:400px;
-  padding-top:15px;
-}
-.kasten{
-  text-align: center;
-  min-width: 40%;
-  float: left;
-border:1px solid #999999;
-  margin-bottom: 30px;
-  min-height:430px;
-  padding-top:15px;
-}
-
-.kasten-rechts{
-  text-align: center;
-  min-width: 40%;
-  float: right;
-border:1px solid #999999;
-  margin-bottom: 30px;
-  min-height:430px;
-  padding-top:15px;
-}
-
-#herz, #herz2 {
-margin-left: 35%;
-  width: 180px;
-  height: 180px;
-
-}
-
-#donate2{
-border:1px solid #999999;
-text-align: center;
-min-width: 40%;
-float: right;
-margin-bottom: 30px;
-min-height: 400px;
-padding-top: 15px;
-}
-
-.button a {
-  color: #FFFFFF;
-  text-decoration: none;
-  line-height: 50px;
-
-}
-
-.button:hover{
-background-color: #01DF74;
-}
-
-#progress_bar {
-  background: #efefef;
-  position: relative;
-  left: 10%;
-  height: 4%;
-  width: 80%;
-  border-radius: 3px;
-  border: 2px solid;
-}
-
-#progress {
-  background:  #4CAF50;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 50%;
-  color: #ffffff;
-  text-align: left;
-  padding-left: 5px;
-  font-weight: bold;
-  font-size: 24px;
-  font-family: Quicksand;
-}
-
-#progress:hover {
-  background:  #01DF74;
-}
-
-/* Main Page End */
-/************************************************/
-
-.footer{
-clear:both;
-margin-top: 20px;
-min-height: 50px;
-background: #333333;
-width: 100%;
+#nav li a{
+color: #FFFFFF;
 text-decoration: none;
-text-align: center;
-padding-top: 25px;
-
 }
 
-.footer a {
-  color:  #FFFFFF;
+#nav li:hover a {
   text-decoration: none;
 
 }
-.footer li {
-  padding-right: 30px;
-  padding-left: 30px;
-    display: inline;
+#nav li:hover{
+background-color: #EE8F1B;
+
+
 }
+
+.nav-button button{
+height: 60px;
+width: 60px;
+float: left;
+background-image: url("res/img/menu.png");
+text-align: center;
+border: none;
+
+
+}
+
+.header  {
+	float: left;
+width: 100%;
+height: 50%;
+display: block;
+background-image: url("res/img/togo-schule.jpg");
+background-position: 20%;
+margin-bottom: 30px;
+
+
+}
+.header img{
+  max-width: 100%;
+float: left;
+
+}
+.nav-button{
+float: left;
+}
+/* NAV and Header End */
+/************************************************/
