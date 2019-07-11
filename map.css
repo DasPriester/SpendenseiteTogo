@@ -1,6 +1,6 @@
 /* Map Begin*/
 #savanes{
-  top: -1200px;
+  top: -1100px;
 }
 #kara{
   top: -1000px;
@@ -13,6 +13,11 @@
 }
 #maritime{
   top: -400px;
+}
+
+.entiremap {
+margin-left: 10%;
+
 }
 
 .map-img{
@@ -42,11 +47,23 @@
 }
 
 .bigtext{
-
 font-size: 120%;
 font-weight: bold;
 text-align: center;
 display: block;
 margin: auto;
+}
+
+#savanesbild {
+  margin-top: 3%
+}
+#karabild {
+  margin-top: -1%
+}
+#centralebild {
+  margin-top: 2%
+}
+#plateauxbild {
+  margin-top: -3%
 }
 /*Map End*/

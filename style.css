@@ -140,7 +140,34 @@ padding-top: 15px;
 background-color: #01DF74;
 }
 
+#progress_bar {
+  background: #efefef;
+  position: relative;
+  left: 10%;
+  height: 4%;
+  width: 80%;
+  border-radius: 3px;
+  border: 2px solid;
+}
 
+#progress {
+  background:  #4CAF50;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Quicksand;
+}
+
+#progress:hover {
+  background:  #01DF74;
+}
 
 /* Main Page End */
 /************************************************/
