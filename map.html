@@ -30,19 +30,19 @@
   {
       saved = "";
       all = "";
-      for(int i = 0; i< pIn.length() ; i++)
+      for(int i = 0; i< arguments[0].length() ; i++)
       {
-          if(pIn.charAt(i)==',')
+          if(arguments[0].charAt(i)==',')
           {
-              all += ""+(0+Integer.parseInt(saved)*arguments[0])+",";
+              all += ""+(0+Integer.parseInt(saved)*arguments[1])+",";
               saved = "";
           }
           else
           {
-              saved += pIn.charAt(i);
+              saved += arguments[0].charAt(i);
           }
       }
-      all += ""+(0+Integer.parseInt(saved)*arguments[0]);
+      all += ""+(0+Integer.parseInt(saved)*arguments[1]);
       return all;
   }
 
