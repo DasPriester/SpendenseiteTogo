@@ -32,7 +32,7 @@ margin: 50px 10% 50px 10%;
 
 
 .intro  h2 {
-  font-size: 250%;
+  font-size: 220%;
   line-height: 60px;
 }
 
@@ -124,7 +124,7 @@ text-align: center;
 
 #donate{
   text-align: center;
-  min-width: 45%;
+  min-width: 40%;
   float: left;
 border:1px solid #999999;
   margin-bottom: 30px;
