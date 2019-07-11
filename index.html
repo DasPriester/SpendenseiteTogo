@@ -6,6 +6,7 @@
     <link rel="icon" href="res/img/placeholder-favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="map.css">
 
 
   </head>
@@ -121,6 +122,89 @@ Projekte unterstüzen..</p>
 
  </div></div>
 
+ <script type="text/javascript">
+
+ var y = ["savanes","kara","centrale","plateaux","maritime"]
+
+ function hide_show() {
+   hide_all();
+   document.getElementById(arguments[0]).style.display = "block";
+ }
+ function hide_all() {
+   for(z = 0; z < y.length; z++){
+     document.getElementById(y[z]).style.display = "none";
+   }
+ }
+ </script>
+ <script type="text/javascript">
+
+ if (screen.height == 1050 && screen.width == 1680) {
+   document.getElementById("entiremap").style.display = "block";
+ }
+ else {
+   document.getElementById("entiremap").style.display = "none";
+ }
+
+
+ </script>
+
+<p id="maptext">Fahren sie mit der Maus über die Karte, um genaueres zu sehen.</p>
+
+ <div class="entiremap" id="entiremap">
+   <div class="map" id="map">
+     <img src="res/img/togo-map.jpg" usemap="#togo-usemap" width="66%" id="actualmap">
+     <map name="togo-usemap">
+       <area target="" onmouseover="hide_show('savanes')" onmouseout="hide_all()" alt="Savanes" title="Savanes" href="" coords="267,65,276,72,293,67,304,73,303,93,296,98,297,111,293,120,296,125,283,135,281,152,282,168,296,172,309,180,321,191,331,205,337,217,352,217,361,227,370,237,380,237,371,278,379,285,382,297,384,305,417,329,441,328,438,308,454,264,463,264,468,268,483,265,503,255,460,222,460,194,466,181,466,149,480,131,483,117,488,90,436,93,403,103,402,90" shape="poly">
+       <area target="" onmouseover="hide_show('kara')" onmouseout="hide_all()" alt="Kara" title="Kara" href="" coords="381,297,369,297,369,307,374,317,364,330,371,338,362,360,371,364,367,375,354,372,348,377,355,391,367,385,375,389,367,395,349,394,342,403,357,407,343,415,352,425,366,420,369,410,387,408,402,416,400,423,412,427,409,450,401,458,407,475,395,482,397,495,389,508,403,529,403,542,412,540,419,531,432,519,448,502,479,511,494,508,505,499,501,481,509,466,551,467,578,460,594,450,586,411,581,413,574,397,582,386,579,303,502,255,484,265,467,267,453,263,436,310,441,328,412,331,382,309" shape="poly">
+       <area target="" onmouseover="hide_show('centrale')" onmouseout="hide_all()" alt="Centrale" title="Centrale" href="" coords="400,545,399,560,378,559,394,598,417,616,432,625,436,638,444,643,442,654,449,657,449,663,418,683,423,688,418,700,425,746,474,729,505,729,523,733,554,727,561,687,552,645,634,647,635,632,645,621,635,609,634,498,625,476,593,450,581,461,554,466,509,464,501,480,504,497,493,508,476,513,448,502,436,512,428,524,420,532,410,541" shape="poly">
+       <area target="" onmouseover="hide_show('plateaux')" onmouseout="hide_all()" alt="Plateaux" title="Plateaux" href="" coords="425,747,427,790,418,787,415,806,403,813,403,842,411,853,427,852,433,873,427,900,423,912,421,935,403,942,411,950,411,964,406,974,415,978,417,986,431,992,430,1015,441,1023,451,1025,448,1032,468,1027,478,1014,481,971,530,976,555,995,577,975,606,971,629,957,621,935,639,934,640,651,552,645,560,688,552,726,519,737,500,729,470,730" shape="poly">
+       <area target="" onmouseover="hide_show('maritime')" onmouseout="hide_all()" alt="Maritime" title="Maritime" href="" coords="448,1029,454,1050,463,1057,475,1066,483,1072,506,1079,513,1097,527,1113,547,1111,548,1122,636,1100,641,1094,675,1085,661,1044,651,1041,651,1031,633,1016,625,1003,628,993,638,986,631,969,634,954,607,968,580,971,557,991,528,973,479,968,478,1009,465,1025" shape="poly">
+     </map>
+   </div>
+
+   <div id="all-img">
+     <div id="savanes"  class="map-imgs">
+       <h2 class="bigtext">Savanes</h2><br>
+       <p>Eine Region Togos mit der Hauptstadt Dapaong,
+       in welcher etwa 50.000 Menschen wohnen, jedoch
+       rund 828.000 Menschen leben.</p>
+       <img class="bigtext" src="res/img/map-bild-1.jpg" alt="Savanes - Bild" width="44%" id="savanesbild">
+     </div>
+
+     <div id="kara"     class="map-imgs">
+       <h2 class="bigtext">Kara</h2><br>
+       Hier leben rund 769.940 Menschen. Menschen. Die gleichnahmige
+       Hauptstadt wurde zu einem wichtigen Verwaltungs-
+       und Wirtschaftszentrum ausgebaut.<br><br> In dieser Region steht
+       die zweite Univerität Togos; die " Université de Kara".
+       <img src="res/img/map-bild-2.jpg" width="32%" class="bigtext" id="karabild">
+     </div>
+
+     <div id="centrale" class="map-imgs"><h2 class="bigtext">Centrale</h2><br>
+       Diese Region liegt in der Mitte Togos mit der Hauptstadt Sokodé.<br>
+       Dieses Gebiet hat eine Gesamtbevölkerung von 617.871
+       Einwohnern.<br>Die Hauptstadt ist der wichtigste Warenumschlagplatz
+       für ihr landwirtschaftlich geprägtes Umland.
+       <img src="res/img/map-bild-3.jpg" width="30%" class="bigtext" id="centralebild">
+       </div>
+
+     <div id="plateaux" class="map-imgs"><h2 class="bigtext">Plateaux</h2><br>
+       Diese Region liegt im mittleren Süden Togos mit der Hauptstadt Atakpamé.<br><br>
+       Mit 1.375.165 Einwohnern ist Plateaux die zweit Größte Region Togos.
+       <br><br>Gleichzeitig ist sie mit 16.975 Quadratkilometern die größte Region togos
+       <img src="res/img/map-bild-4.jpg" width="25%" id="plateauxbild" class="bigtext">
+       </div>
+
+     <div id="maritime" class="map-imgs"><h2 class="bigtext">Maritime</h2><br>
+       Diese Region ist mit 6.396 Quadratkilometern die kleinste Region
+        Togos.<br><br>Jedoch ist sie mit 2.599.955 die Region
+         mit den meisten Einwohnern.
+       <img src="res/img/map-bild-5.jpg" width="35%" class="bigtext" id="maritimebild">
+     </div>
+
+   </div>
+ </div>
+
 
 
     <div class="button" onclick="click2()">
@@ -174,7 +258,7 @@ window.location = "http://www.google.com/";
 <h2>Per PayPal spenden</h2>
 
 
-      <img src="res/img/paypal.png" alt="paypal" style="margin-top:20px;" href="https://paypal.com">
+<a href="https://www.paypal.com"><img src="res/img/paypal.png" alt="paypal" style="margin-top:20px;"></a>
 
 
 </div>

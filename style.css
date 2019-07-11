@@ -81,16 +81,36 @@ text-align: center;
   top: 100px;
   height: 50px;
   width: 6%;
+  z-index: 99;
   }
 
 #donate{
   text-align: center;
-  min-width: 45%;
+  min-width: 40%;
   float: left;
 border:1px solid #999999;
   margin-bottom: 30px;
   min-height:400px;
-  padding-top:15px
+  padding-top:15px;
+}
+.kasten{
+  text-align: center;
+  min-width: 40%;
+  float: left;
+border:1px solid #999999;
+  margin-bottom: 30px;
+  min-height:430px;
+  padding-top:15px;
+}
+
+.kasten-rechts{
+  text-align: center;
+  min-width: 40%;
+  float: right;
+border:1px solid #999999;
+  margin-bottom: 30px;
+  min-height:430px;
+  padding-top:15px;
 }
 
 #herz, #herz2 {
