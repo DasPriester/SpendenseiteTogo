@@ -143,21 +143,53 @@ background-color: #01DF74;
 #progress_bar {
   background: #efefef;
   position: relative;
+  z-index: 0;
   left: 10%;
   height: 4%;
   width: 80%;
   border-radius: 3px;
   border: 2px solid;
+  color: #000000;
+  text-align: left;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Quicksand;
 }
 
 #progress {
   background:  #4CAF50;
   position: relative;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 50%;
+  z-index: 1;
+  top: -4.25%;
+  left: 10.1%;
+  height: 4%;
+  width: 0%;                          /*edit here*/
+  border-radius: 3px;
+  border: 2px none;
   color: #ffffff;
+  word-wrap: break-word;
+  line-height: 50px;
+  text-align: left;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Quicksand;
+}
+
+#progressText {
+  position: relative;
+  z-index: 1;
+  top: -9%;
+  left: 10.1%;
+  height: 4%;
+  width: 0%;                          /*edit here*/
+  border-radius: 3px;
+  border: 2px none;
+  color: #ffffff;
+  word-wrap: break-word;
+  overflow:hidden;
+  line-height: 200%;
   text-align: left;
   padding-left: 5px;
   font-weight: bold;
