@@ -47,12 +47,9 @@ padding-left: 15px;
 padding-right: 15px;
 line-height: 60px;
 background-color: #60A1F0;
-}
-
-#nav li a{
-color: #FFFFFF;
-text-decoration: none;
-}
+color: white;
+font-weight: 700;
+  border: none;
 
 #nav li:hover a {
   text-decoration: none;
