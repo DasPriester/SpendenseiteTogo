@@ -33,42 +33,49 @@ color: #333333;
 
 min-height:60px;
 
+
 }
 
 #nav ul{
 
 list-style: none;
-
- float: left;
+float: left;
 }
 #nav li{
 float: left;
-padding-left: 15px;
-padding-right: 15px;
 line-height: 60px;
+
+
+}
+
+#nav li button{
 background-color: #60A1F0;
-}
 
-#nav li a{
-color: #FFFFFF;
-text-decoration: none;
-}
+  border: none;
 
-#nav li:hover a {
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+	height: 60px;
+	width: auto;
 
 }
-#nav li:hover{
-background-color: #EE8F1B;
 
-
+#nav button:hover  {
+  text-decoration: none;
+	background-color: #EE8F1B;
 }
+
 
 .nav-button button{
 height: 60px;
 width: 60px;
 float: left;
-background-image: url("res/img/menu.png");
+background-image: url("res/img/menubar.svg");
 text-align: center;
 border: none;
 
@@ -83,7 +90,8 @@ display: block;
 background-image: url("res/img/togo-schule.jpg");
 background-position: 20%;
 margin-bottom: 30px;
-
+background-repeat: no-repeat;
+background-size: auto;
 
 }
 .header img{
