@@ -85,11 +85,12 @@ text-align: center;
 
 #donate{
   text-align: center;
-  width: 45%;
+  min-width: 45%;
   float: left;
 border:1px solid #999999;
   margin-bottom: 30px;
   min-height:400px;
+  padding-top:15px
 }
 
 #herz, #herz2 {
@@ -102,11 +103,11 @@ margin-left: 35%;
 #donate2{
 border:1px solid #999999;
 text-align: center;
-width: 40%;
+min-width: 40%;
 float: right;
 margin-bottom: 30px;
 min-height: 400px;
-
+padding-top: 15px;
 }
 
 .button a {
@@ -120,7 +121,35 @@ min-height: 400px;
 background-color: #01DF74;
 }
 
+#progress_bar {
+  background: #efefef;
+  position: relative;
+  bottom: 5px;
+  left: 10%;
+  height: 2%;
+  width: 80%;
+}
 
+#progress {
+  background:  #4CAF50;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+}
+
+#progress_bar a {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#progress:hover {
+  background:  #01DF74;
+}
 
 /* Main Page End */
 /************************************************/
