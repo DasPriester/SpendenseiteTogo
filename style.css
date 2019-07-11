@@ -83,6 +83,43 @@ text-align: center;
   width: 6%;
   z-index: 99;
   }
+@media only screen and (max-width: 720px) {
+  .button{
+    position: relative;
+    float: none;
+    top: auto;
+    width: 50%;
+    margin-left: 15%;
+  }
+  #maptext{
+    display: none;
+  }
+  #entiremap{
+    display: none;
+  }
+  .nav-button{
+    width: 150px;
+  }
+  .nav-button button{
+    width: 129px !important;
+    float: none !important;
+  }
+  .nav-button{
+    float:none !important;
+  }
+  #nav ul li{
+    float: none !important;
+  }
+  #nav a{
+    float: none;
+  }
+  .intro .kasten,.intro .kasten-rechts{
+    float: none;
+  }
+  #donate,#donate2{
+    float: none !important;
+  }
+}
 
 #donate{
   text-align: center;
@@ -226,4 +263,47 @@ padding-top: 25px;
   padding-right: 30px;
   padding-left: 30px;
     display: inline;
+}
+
+/* flip card */
+.flip-card {
+  background-color: transparent;
+  height: 421px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
 }
