@@ -25,6 +25,28 @@
       }
     }
     </script>
+    <script type="text/javascript">
+    halve()
+  {
+      saved = "";
+      all = "";
+      for(int i = 0; i< pIn.length() ; i++)
+      {
+          if(pIn.charAt(i)==',')
+          {
+              all += ""+(0+Integer.parseInt(saved)*arguments[0])+",";
+              saved = "";
+          }
+          else
+          {
+              saved += pIn.charAt(i);
+          }
+      }
+      all += ""+(0+Integer.parseInt(saved)*arguments[0]);
+      return all;
+  }
+
+    </script>
 
     <div class="entiremap" style="margin-top:900px;">
       <div class="map" id="map">
@@ -42,9 +64,9 @@
         <div id="savanes"  class="map-imgs">
           <h2 class="bigtext">Savanes</h2><br>
           <p>Eine Region Togos mit der Hauptstadt Dapaong,
-          in welcher etwa 50.000 Menschen wohnen, jedoch nur<br><br>
-          In dieser Region leben rund 828.000 Menschen.</p>
-          <img class="bigtext" src="res/img/savanes-img.jpg" alt="Savanes - Bild" width="44%">
+          in welcher etwa 50.000 Menschen wohnen, jedoch
+          rund 828.000 Menschen leben.</p>
+          <img class="bigtext" src="res/img/map-bild-1.jpg" alt="Savanes - Bild" width="44%">
         </div>
 
         <div id="kara"     class="map-imgs">
@@ -53,7 +75,7 @@
           Hauptstadt wurde zu einem wichtigen Verwaltungs-
           und Wirtschaftszentrum ausgebaut.<br><br> In dieser Region steht
           die zweite Univerität Togos; die " Université de Kara".
-          <img src="res/img/kara-bish.jpeg" width="35%" class="bigtext" id="karabild">
+          <img src="res/img/map-bild-2.jpg" width="32%" class="bigtext">
         </div>
 
         <div id="centrale" class="map-imgs"><h2 class="bigtext">Centrale</h2><br>
@@ -61,22 +83,21 @@
           Dieses Gebiet hat eine Gesamtbevölkerung von 617.871
           Einwohnern.<br>Die Hauptstadt ist der wichtigste Warenumschlagplatz
           für ihr landwirtschaftlich geprägtes Umland.
-          <img src="res/img/centrale.jpg" width="30%" class="bigtext" id="karabild">
+          <img src="res/img/map-bild-3.jpg" width="30%" class="bigtext">
           </div>
 
         <div id="plateaux" class="map-imgs"><h2 class="bigtext">Plateaux</h2><br>
           Diese Region liegt im mittleren Süden Togos mit der Hauptstadt Atakpamé.<br><br>
           Mit 1.375.165 Einwohnern ist Plateaux die zweit Größte Region Togos.
           <br><br>Gleichzeitig ist sie mit 16.975 Quadratkilometern die größte Region togos
-          <img src="res/img/centrale.jpg" width="35%" class="bigtext" id="karabild">
+          <img src="res/img/map-bild-4.jpg" width="25%" id="plateauxbild" class="bigtext">
           </div>
 
-        <div id="maritime" class="map-imgs"><h2 class="bigtext">Centrale</h2><br>
-          Diese Region liegt in der Mitte Togos mit der Hauptstadt Sokodé.<br>
-          Dieses Gebiet hat eine Gesamtbevölkerung von 617.871
-          Einwohnern.<br>Die Hauptstadt ist der wichtigste Warenumschlagplatz
-          für ihr landwirtschaftlich geprägtes Umland.
-          <img src="res/img/centrale.jpg" width="35%" class="bigtext" id="karabild">
+        <div id="maritime" class="map-imgs"><h2 class="bigtext">Maritime</h2><br>
+          Diese Region ist mit 6.396 Quadratkilometern die kleinste Region
+           Togos.<br><br>Jedoch ist sie mit 2.599.955 die Region
+            mit den meisten Einwohnern.
+          <img src="res/img/map-bild-5.jpg" width="35%" class="bigtext">
           </div>
 
       </div>

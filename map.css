@@ -42,11 +42,19 @@
 }
 
 .bigtext{
-
 font-size: 120%;
 font-weight: bold;
 text-align: center;
 display: block;
 margin: auto;
+}
+
+.bigtext img {
+  border: 1px dashed #000000;
+}
+
+#plateauxbild {
+  margin-top: -3%;
+  border: 1px dashed #000000;
 }
 /*Map End*/
