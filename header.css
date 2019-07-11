@@ -50,7 +50,8 @@ line-height: 60px;
 
 #nav li button{
 background-color: #60A1F0;
-
+color: white;
+font-weight: 700;
   border: none;
 
   padding: 15px 32px;
